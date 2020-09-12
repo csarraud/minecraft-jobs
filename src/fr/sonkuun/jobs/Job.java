@@ -1,6 +1,5 @@
 package fr.sonkuun.jobs;
 
-import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 
 import fr.sonkuun.jobs.log.Log;

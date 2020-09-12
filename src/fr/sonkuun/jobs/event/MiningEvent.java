@@ -2,7 +2,6 @@ package fr.sonkuun.jobs.event;
 
 import java.util.Random;
 
-import org.bukkit.ChatColor;
 import org.bukkit.Location;
 import org.bukkit.Material;
 import org.bukkit.block.Block;
@@ -12,7 +11,6 @@ import org.bukkit.event.block.BlockBreakEvent;
 import org.bukkit.inventory.ItemStack;
 
 import fr.sonkuun.jobs.Job;
-import fr.sonkuun.jobs.Jobs;
 import fr.sonkuun.jobs.log.Log;
 import fr.sonkuun.jobs.plugin.JobsPlugin;
 import fr.sonkuun.shop.plugin.ShopPlugin;

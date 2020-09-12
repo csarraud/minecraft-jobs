@@ -2,15 +2,11 @@ package fr.sonkuun.jobs.event;
 
 import java.util.Random;
 
-import org.bukkit.Location;
 import org.bukkit.Material;
-import org.bukkit.entity.Entity;
 import org.bukkit.entity.Item;
 import org.bukkit.entity.Player;
 import org.bukkit.event.player.PlayerFishEvent;
 import org.bukkit.inventory.ItemStack;
-import org.bukkit.util.Vector;
-
 import fr.sonkuun.jobs.Job;
 import fr.sonkuun.jobs.log.Log;
 import fr.sonkuun.jobs.plugin.JobsPlugin;
