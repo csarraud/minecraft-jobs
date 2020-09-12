@@ -1,0 +1,33 @@
+name: Jobs
+version: 1.2
+author: Sonkuun
+main: fr.sonkuun.jobs.plugin.JobsPlugin
+api-version: 1.16
+
+commands:
+   jobs:
+      description: open an inventory to show jobs progress of the player
+      permission: jobs.jobs
+   reset:
+      description: reset all job at the default value
+      permission: jobs.reset
+      usage: |
+         /<command> [all|*job name*]
+         Example: /reset miner - reset your miner progression
+   give:
+      description: give level or xp on the chosen job
+      permission: jobs.give
+      usage: |
+         /<command> [*job name*] [level|xp] [value]
+         Example: /give miner level 10 - give 10 level to your miner job
+
+permissions:
+   jobs.jobs:
+      description: Give access to jobs inventory UI
+      default: true
+   jobs.reset:
+      description: Allows you to reset jobs progression
+      default: op
+   jobs.give:
+      description: Allows you to give level or xp to your jobs
+      default: op
