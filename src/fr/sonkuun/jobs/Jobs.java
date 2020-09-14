@@ -31,8 +31,6 @@ public class Jobs {
 	public Jobs(Player player, JobsPlugin plugin) {
 		this.plugin = plugin;
 		
-		this.player = player;
-		
 		/* Add the differents jobs init here*/
 		miner = new Job("Miner", 1, 0, player, plugin);
 		woodcutter = new Job("Woodcutter", 1, 0, player, plugin);
@@ -44,7 +42,6 @@ public class Jobs {
 	}
 	
 	public Jobs(Player player) {
-		this.player = player;
 		
 		/* Add the differents jobs init here*/
 		miner = new Job("Miner", 1, 0, player, plugin);
