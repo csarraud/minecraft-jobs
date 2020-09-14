@@ -5,7 +5,7 @@ Config:
     # If set to true, jobs will give some coins. These values are configurable
     # If set to false, jobs will only give xp.
     Shop:
-      enabled:true
+      enabled:false
   # Experience needed equation :
   # xp_level_one * level^first_coef - second_coef * xp_level_one * (level - substract_value)^third_coef
   Experience:
