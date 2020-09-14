@@ -19,8 +19,6 @@ public class Jobs {
 
 	private JobsPlugin plugin;
 	
-	private Player player;
-	
 	/* Add the differents jobs variable here */
 	public Job miner;
 	public Job woodcutter;

@@ -39,7 +39,6 @@ public class JobsListener implements Listener {
 	
 	@EventHandler
 	public void onBreakBlock(BlockBreakEvent event) {
-		Player player = event.getPlayer();
 		Material material = event.getBlock().getType();
 		
 		switch (material) {
@@ -127,7 +126,6 @@ public class JobsListener implements Listener {
 	
 	@EventHandler
 	public void onFishing(PlayerFishEvent event) {
-		Player player = event.getPlayer();
 		State state = event.getState();
 		
 		switch (state) {
